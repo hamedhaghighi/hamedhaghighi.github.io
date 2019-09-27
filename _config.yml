@@ -81,9 +81,9 @@ analytics:
 # Site Author
 author:
   name             : "Hamed Haghighi"
-  avatar           : "bio-photo.jpg"
-  bio              : "Your biography for the left-hand sidebar"
-  location         : "Location"
+  avatar           : "profile.jpg"
+  bio              : "AI researcher at University of Tehran"
+  location         : "Tehran, Iran"
   employer         :
   pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : "http://yourfullgooglescholarurl.com"
