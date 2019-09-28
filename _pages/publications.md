@@ -4,8 +4,7 @@ title: "Projects"
 permalink: /publications/
 author_profile: true
 ---
-## [Ambient VAE: an unsupervised method for image restoration](http://google.com)
-* Research on utilizing Varational Auto-encoder as an unsupervised image enhancer.  
+## [Ambient VAE: an unsupervised method for image restoration](http://google.com)  * Research on utilizing Varational Auto-encoder as an unsupervised image enhancer.
 ## [SampleTransformer: modeling high fidelity music in raw audio domain](http://google.com)
 * Research on capturing long range dependencies of music in audio domain using U-Net like transformer architecture.
 ## [ITALIC: ITerative attentive lossless image compression](http://google.com)
