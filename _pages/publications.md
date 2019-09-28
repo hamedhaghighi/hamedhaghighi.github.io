@@ -4,7 +4,7 @@ title: "Projects"
 permalink: /publications/
 author_profile: true
 ---
-# [Project 1](http://google.com)
+## [Project 1](http://google.com)
 <!-- {% if author.googlescholar %}
   You can also find my articles on <u><a href="{{author.googlescholar}}">my Google Scholar profile</a>.</u>
 {% endif %}
