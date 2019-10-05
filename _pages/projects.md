@@ -22,23 +22,3 @@ author_profile: true
 {% for post in site.projects %}
   {% include archive-single.html %}
 {% endfor %}
-
-<!-- ## [E-puck Robot Localization](_publications/)
-* Implementation of particle filter algorithm for realworld problem of E-puck robot localization.
-
-## [Statistical analysis of DOTA2 Matches](http://google.com)
-* descriptive and predictive analytics of kaggle DOTA2 matches’ dataset using R language.
-
-## [Solving Minesweeper Game using Reinforcement Learning](http://google.com)
-* Looking at Minesweeper game as a RL problem and solve it using Q-learning method. -->
-
-
-<!-- {% if author.googlescholar %}
-  You can also find my articles on <u><a href="{{author.googlescholar}}">my Google Scholar profile</a>.</u>
-{% endif %}
-
-{% include base_path %}
-
-{% for post in site.publications reversed %}
-  {% include archive-single.html %}
-{% endfor %} -->
