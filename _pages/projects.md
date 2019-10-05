@@ -1,17 +1,17 @@
 ---
 layout: archive
 title: "Projects"
-permalink: /publications/
+permalink: /projects/
 author_profile: true
 ---
 
-## [Ambient VAE: an unsupervised method for image restoration](http://google.com)
+## [Ambient VAE: an unsupervised method for image restoration](https://github.com/hamedhaghighi/Ambient-VAE)
 * Research on utilizing Varational Auto-encoder as an unsupervised image enhancer.
 
-## [SampleTransformer: modeling high fidelity music in raw audio domain](http://google.com)
+## [SampleTransformer: modeling high fidelity music in raw audio domain](https://github.com/hamedhaghighi/SampleTransformer)
 * Research on capturing long range dependencies of music in audio domain using U-Net like transformer architecture.
 
-## [ITALIC: ITerative attentive lossless image compression](http://google.com)
+## [ITALIC: ITerative attentive lossless image compression](https://github.com/hamedhaghighi/CPA-using-Image-processing-techniques)
 * Research on designing fast recursive model for lossless image compression task using attention mechanism.
 
 ## [Automatic evaluation of Crown Preparation using Image Processing Technique](http://google.com)
