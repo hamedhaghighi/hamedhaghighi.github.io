@@ -15,8 +15,8 @@ The factors which affect our problem are number of mines, size of the board, num
 
 <img src="../images/bsize-wr.png" width="400">
 
-*Fig.1 Effect of board size on win rate.(#iterations=1000, #mines=3)*
+*Fig.2 Effect of board size on win rate.(#iterations=1000, #mines=3)*
 
-<img src="../images/it-wr.png.png" width="400">
+<img src="../images/it-wr.png" width="400">
 
-*Fig.1 Effect of iterations' number on win rate.(board size = 4\*4 #mines=3)*
+*Fig.2Effect of iterations' number on win rate.(board size = 4\*4 #mines=3)*
