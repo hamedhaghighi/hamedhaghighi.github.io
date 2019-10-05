@@ -1,7 +1,7 @@
 ---
 title: "E-puck Robot Localization"
 collection: publications
-permalink: /publication/2015-10-01-paper-title-number-3
+permalink: /publication/E-puck Robot Localization
 excerpt: '* Implementation of particle filter algorithm for realworld problem of E-puck robot localization.'
 # date: 2015-10-01
 # venue: 'Journal 1'
