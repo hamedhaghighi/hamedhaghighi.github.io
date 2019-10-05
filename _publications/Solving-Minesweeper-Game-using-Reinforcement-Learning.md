@@ -19,4 +19,4 @@ The factors which affect our problem are number of mines, size of the board, num
 
 <img src="../images/it-wr.png" width="400">
 
-*Fig.2Effect of iterations' number on win rate.(board size = 4\*4 #mines=3)*
+*Fig.3 Effect of iterations' number on win rate.(board size = 4\*4 #mines=3)*
