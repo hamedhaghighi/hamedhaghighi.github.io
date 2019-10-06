@@ -11,10 +11,10 @@ author_profile: true
 ## [SampleTransformer: modeling high fidelity music in raw audio domain](https://github.com/hamedhaghighi/SampleTransformer)
 * Research on capturing long range dependencies of music in audio domain through U-Net like transformer architecture.
 
-## [ITALIC: ITerative and Attentive Lossless Image Compression](https://github.com/hamedhaghighi/CPA-using-Image-processing-techniques)
+## [ITALIC: ITerative and Attentive Lossless Image Compression](https://github.com/hamedhaghighi/UTLC)
 * Research on designing fast recursive model for lossless image compression task using attention mechanism.
 
-## [Automatic evaluation of Crown Preparation using Image Processing Technique](http://google.com)
+## [Automatic evaluation of Crown Preparation using Image Processing Technique](https://github.com/hamedhaghighi/CPA-using-Image-processing-techniques)
 * Design and implementation of innovative software for crown preparation analysis using QT and OpenCV library.
 
 {% include base_path %}
