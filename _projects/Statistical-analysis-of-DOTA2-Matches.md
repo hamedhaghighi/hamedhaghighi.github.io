@@ -1,5 +1,5 @@
 ---
-title: "Statistical analysis of DOTA2 Matches"
+title: "Statistical Analysis of DOTA2 Matches"
 collection: projects
 permalink: /projects/Statistical-analysis-of-DOTA2-Matches
 excerpt: '* descriptive and predictive analytics of kaggle DOTA2 matches’ dataset using R language.'
