@@ -5,7 +5,7 @@ permalink: /projects/Solving-Minesweeper-Game-using-Reinforcement-Learning
 excerpt: '* Looking at Minesweeper game as a RL problem and solve it using Q-learning method.'
 ---
 For our Q_learning algorithm, we consider revealing a tile as our action and existence of the bombs as the reward. If there is a bomb under the tile, we get -1 reward otherwise we get 1. Finally, our state is the state of the board at each moment.  
-The factors which affect our problem are the number of mines, the size of the board, the number of iterations. In the blow, we show the effect of each factor on the win rate by drawing the related plot.
+The factors which affect the problem are the number of mines, the size of the board, and the number of iterations. In the blow, we show the effect of each factor on the win rate by drawing the related plots.
 
 
 
