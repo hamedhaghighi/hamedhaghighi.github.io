@@ -6,7 +6,7 @@ author_profile: true
 ---
 
 ## [Ambient VAE: an unsupervised method for image restoration](https://github.com/hamedhaghighi/Ambient-VAE)
-* Research on using varational auto-encoder as an unsupervised image enhancer.
+* Research on using varational auto-encoders for the unsupervised image restoration task.
 
 ## [SampleTransformer: modeling high fidelity music in raw audio domain](https://github.com/hamedhaghighi/SampleTransformer)
 * Research on capturing long range dependencies of music in audio domain through U-Net like transformer architecture.
