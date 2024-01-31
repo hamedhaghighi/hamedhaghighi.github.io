@@ -7,10 +7,10 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Hamed Haghighi"
+title                    : ""
 title_separator          : "-"
-name                     : &name "Hamed Haghighi"
-description              : &description "AI researcher at University of Tehran"
+name                     : &name ""
+description              : &description ""
 url                      : https://hamedhaghighi.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "hamedhaghighi/hamedhaghighi.github.io"
