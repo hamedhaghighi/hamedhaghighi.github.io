@@ -81,13 +81,13 @@ analytics:
 # Site Author
 author:
   name             : "Hamed Haghighi"
-  avatar           : "profile.png"
-  bio              : "AI researcher at University of Tehran"
-  location         : "Tehran, Iran"
+  avatar           : "hamed.jpeg"
+  bio              : "PhD @ University of Warwick"
+  location         : "Coventry, UK"
   employer         :
   pubmed           :
   googlescholar    :
-  email            : "hhaghighi.real@gmail.com"
+  email            : "hamed.haghighi@warwick.ac.uk"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :

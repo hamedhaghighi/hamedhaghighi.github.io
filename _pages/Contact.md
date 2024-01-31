@@ -4,6 +4,6 @@ title: "Contact"
 permalink: /contact/
 author_profile: true
 ---
-Electrical and Computer Engineering Department, University of Tehran<br>
-Faculty of Engineering, North Kargar, Tehran, Iran<br>
-Email: hhaghighi [at] ut.ac.ir
+WMG, University of Warwick<br>
+Coventry, UK<br>
+Email: hamed.haghighi@warwick.ac.uk

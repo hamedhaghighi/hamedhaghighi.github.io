@@ -16,5 +16,4 @@ redirect_from:
 
   gtag('config', 'UA-149714426-1');
 </script>
-
-I am an artificial intelligence researcher at the University of Tehran, and recently, I have received my M.Sc. degree in Computer Science from there. My main research interests are generative models, deep learning, computer vision, and audio signal processing. In detail, I work on modeling dependencies in high fidelity images and audio using deep generative models. While I mainly focus on these areas, I am also interested in other domains such as natural language processing, computer graphics, and any other artificial-intelligence-related task. [Here is my CV](../assets/Hamed_CV.pdf)
+I am a PhD student at the University of Warwick, UK, focusing on the application of deep generative models in autonomous driving, specifically in the synthesis of camera images and Lidar point clouds. Concurrently, I work as a machine learning researcher in the European Union-funded project, Hi-Drive, where I am involved in the development of a semi-automated annotation tool called ML-ADA. [Click here to view my CV.](../assets/Hamed_CV.pdf)

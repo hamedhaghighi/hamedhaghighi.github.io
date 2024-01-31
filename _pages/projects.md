@@ -4,11 +4,16 @@ title: "Projects"
 permalink: /projects/
 author_profile: true
 ---
+## [Contrastive Learning-based Framework for Sim-to-Real Mapping of Lidar Point Clouds in Autonomous Driving Systems](https://arxiv.org/abs/2312.15817)
+* Research on utilising an unpaired image-to-image translation framework for sim-to-real mapping of Lidar point clouds.
 
-## [Ambient VAE: an unsupervised method for image restoration](https://github.com/hamedhaghighi/Ambient-VAE)
+## [Accelerating Stereo Image Simulation for Automotive Applications Using Neural Stereo Super Resolution](https://ieeexplore.ieee.org/document/10173712)
+* Proposing a tranformer-based stereo super resolution network to speed up stereo image rendering.
+
+## [Ambient VAE: an Unsupervised Method for Image Restoration](https://github.com/hamedhaghighi/Ambient-VAE)
 * Research on using varational auto-encoders for the unsupervised image restoration task.
 
-## [SampleTransformer: modeling high fidelity music in raw audio domain](https://github.com/hamedhaghighi/SampleTransformer)
+## [SampleTransformer: Modelling High Fidelity Music in Raw Audio Domain](https://github.com/hamedhaghighi/SampleTransformer)
 * Research on capturing long range dependencies of music in audio domain through U-Net like transformer architecture.
 
 ## [ITALIC: ITerative and Attentive Lossless Image Compression](https://github.com/hamedhaghighi/UTLC)
