@@ -29,7 +29,8 @@ redirect_from:
 <div id="about" class="about-item">
 I am pursuing my PhD at the University of Warwick, UK,  under the supervision of Dr. Mehrdad Dianati, Dr. Kurt Debattista and Dr. Valentina Donzella. My research focuses on adapting deep generative models to synthesise realistic camera images and Lidar point clouds for autonomous driving applications.<br>
  Simultaneously, I work as a part-time machine learning engineer in the European Union-funded project, Hi-Drive. Here, I am involved in developing ML-ADA, a semi-automated annotation tool for 2D/3D object detection.  <br>
- Overall, I specialise in leveraging state-of-the-art ML models, particularly deep generative models, and computer vision algorithms to solve real-world problems. <a href='../assets/Hamed_CV.pdf' style="color: #007bff">View my CV for more details.</a>
+ Overall, I specialise in leveraging state-of-the-art ML models, particularly deep generative models, and computer vision algorithms to solve real-world problems.<br>
+ <a href='../assets/Hamed_CV.pdf' style="color: #007bff">View my CV for more details.</a>
 </div>
 
 <h2 class="section-header">Experience</h2>
@@ -569,7 +570,6 @@ I am pursuing my PhD at the University of Warwick, UK,  under the supervision of
 
 <script>
 document.addEventListener('DOMContentLoaded', function() {
-  console.log('Script loaded');
   const projectItems = document.querySelectorAll('.project-item');
 
   projectItems.forEach(item => {
