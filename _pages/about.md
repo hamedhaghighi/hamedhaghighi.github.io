@@ -571,6 +571,7 @@ I am pursuing my PhD at the University of Warwick, UK,  under the supervision of
 
 <script>
 document.addEventListener('DOMContentLoaded', function() {
+  console.log('Script loaded');
   const projectItems = document.querySelectorAll('.project-item');
 
   projectItems.forEach(item => {
