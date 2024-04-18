@@ -14,8 +14,6 @@ redirect_from:
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-
-  gtag('config', 'UA-149714426-1');
 </script>
 
 <div class="navbar">
@@ -579,7 +577,7 @@ document.addEventListener('DOMContentLoaded', function() {
     if(link)
     {
       item.addEventListener('mousedown', function() {
-        window.open(link, '_blank'); // Open link in a new tab
+        window.open(link, '_blank');
     });
     }
   });
@@ -593,10 +591,9 @@ document.addEventListener('DOMContentLoaded', function() {
 
     sections.forEach(section => {
       const element = document.getElementById(section);
-      const offset = 200; // Adjust this value to fit your needs
+      const offset = 200;
 
-      if (element.offsetTop - offset <= window.scrollY && 
-          element.offsetTop + element.offsetHeight - offset > window.scrollY) {
+      if (element.offsetTop - offset <= window.scrollY && element.offsetTop + element.offsetHeight - offset > window.scrollY) {
         currentSection = section;
       }
     });
