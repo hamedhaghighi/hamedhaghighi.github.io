@@ -569,7 +569,7 @@ I am pursuing my PhD at the University of Warwick, UK,  under the supervision of
 
 </style>
 
-<!-- <script>
+<script>
 document.addEventListener('DOMContentLoaded', function() {
   const projectItems = document.querySelectorAll('.project-item');
 
@@ -582,10 +582,7 @@ document.addEventListener('DOMContentLoaded', function() {
     });
     }
   });
-});
-</script>
-<script>
-document.addEventListener('DOMContentLoaded', function() {
+
   const sections = ['about', 'experience', 'education', 'publications', 'projects', 'contact'];
   const navbar = document.querySelector('.navbar');
   const navLinks = navbar.querySelectorAll('a');
@@ -611,4 +608,4 @@ document.addEventListener('DOMContentLoaded', function() {
     });
   });
 });
-</script> -->
+</script>
