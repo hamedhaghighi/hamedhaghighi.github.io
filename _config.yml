@@ -82,11 +82,11 @@ analytics:
 author:
   name             : "Hamed Haghighi"
   avatar           : "hamed.jpeg"
-  bio              : "PhD @ University of Warwick"
-  location         : "Coventry, UK"
+  bio              : "ML Researcher"
+  location         : ""
   employer         :
   pubmed           :
-  googlescholar    :
+  googlescholar    : "https://scholar.google.com/citations?user=asjTMH8AAAAJ&hl=en"
   email            : "hamed.haghighi@warwick.ac.uk"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
@@ -102,7 +102,7 @@ author:
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         :
+  linkedin         : "hamedhaghighi"
   orcid            :
   pinterest        :
   soundcloud       :
