@@ -1,12 +1,13 @@
 ---
 permalink: /
-title: '<h2 class="section-header">About me</h2>'
+title: ''
 excerpt: "About me"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
+
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-149714426-1"></script>
 <script>
@@ -16,12 +17,25 @@ redirect_from:
 
   gtag('config', 'UA-149714426-1');
 </script>
-<div class="about-item">
-I am a PhD student at the University of Warwick, UK, focusing on the application of deep generative models in autonomous driving, specifically in the synthesis of camera images and Lidar point clouds. Concurrently, I work as a machine learning researcher in the european union-funded project, Hi-Drive, where I am involved in the development of a semi-automated annotation tool called ML-ADA. <a href='../assets/Hamed_CV.pdf' style="color: #007bff">View my CV for more details.</a>
+
+<div class="navbar">
+  <a href="#about">About</a>
+  <a href="#experience">Experience</a>
+  <a href="#projects">Projects</a>
+  <a href="#publications">Publications</a>
+  <a href="#education">Education</a>
+  <a href="#contact">Contact</a>
+</div>
+
+<h2 class="section-header">About me</h2>
+<div id="about" class="about-item">
+I am pursuing my PhD at the University of Warwick, UK,  under the supervision of Dr. Mehrdad Dianati, Dr. Kurt Debattista and Dr. Valentina Donzella. My research focuses on adapting deep generative models to synthesise realistic camera images and Lidar point clouds for autonomous driving applications.<br>
+ Simultaneously, I work as a part-time machine learning engineer in the European Union-funded project, Hi-Drive. Here, I am involved in developing ML-ADA, a semi-automated annotation tool for 2D/3D object detection.  <br>
+ Overall, I specialise in leveraging state-of-the-art ML models, particularly deep generative models, and computer vision algorithms to solve real-world problems. <a href='../assets/Hamed_CV.pdf' style="color: #007bff">View my CV for more details.</a>
 </div>
 
 <h2 class="section-header">Experience</h2>
-<div class="experience">
+<div id="experience" class="experience">
   <div class="experience-item">
     <h3>ML Engineer (part-time)</h3>
     <p><strong>Hi-Drive</strong>, March 2022 - Feb 2024, Coventry, UK</p>
@@ -74,10 +88,130 @@ I am a PhD student at the University of Warwick, UK, focusing on the application
   </div>
 </div>
 
+<h2 class="section-header">Projects</h2>
+
+<div id="projects" class="project-grid">
+
+  <div class="project-item" data-link="https://github.com/hamedhaghighi/ML-assisted-annotation">
+    <img src="../images/MLADA.jpg" alt="ML-ADA">
+    <div class="project-info">
+      <h3>ML-ADA</h3>
+      <p>Developed a semi-automatic data annotation tool (ML-ADA) for 2D/3D object detection tasks in autonomous driving.</p>
+    </div>
+  </div>
+
+ <div class="project-item" data-link="https://arxiv.org/pdf/2404.05505.pdf">
+    <img src="../images/LidarGRIT.png" alt="LidarGRIT">
+    <div class="project-info">
+      <h3>LidarGRIT</h3>
+      <p>Developed a transformer-based model, LidarGRIT, for synthesising realistic Lidar point clouds.</p>
+    </div>
+  </div>
+
+
+ <div class="project-item" data-link="https://github.com/hamedhaghighi/ETSSR">
+    <img src="../images/ETSSR.png" alt="ML-ADA">
+    <div class="project-info">
+      <h3>ETSSR</h3>
+      <p>Developed a stereo super resolution model, ETSSR, tailored for accelerating stereo image rendering.</p>
+    </div>
+  </div>
+
+  <div class="project-item" data-link="https://github.com/hamedhaghighi/CLS2R">
+    <img src="../images/cls2r.png" alt="ML-ADA">
+    <div class="project-info">
+      <h3>CLS2R</h3>
+      <p>Developed a sim-to-real mapping framework for Lidar point clouds.</p>
+    </div>
+  </div>
+
+
+
+
+
+
+  <div class="project-item" data-link="https://github.com/hamedhaghighi/Ambient-VAE">
+    <img src="../images/ambient-VAE.png" alt="ML-ADA">
+    <div class="project-info">
+    <h3>Ambient-VAE</h3>
+      <p>Adapted varational auto-encoders for unsupervised image restoration</p>
+    </div>
+  </div>
+  
+  <div class="project-item" data-link="https://github.com/hamedhaghighi/UTLC">
+    <img src="../images/UTLC.png" alt="ML-ADA">
+    <div class="project-info">
+    <h3>UTLC</h3>
+      <p>Designed a fast recursive model, UTLC, for lossless image compression using attention mechanism.</p>
+    </div>
+  </div>
+
+  <div class="project-item" data-link="https://github.com/hamedhaghighi/SampleTransformer">
+    <img src="../images/sampleTransformer.jpg" alt="ML-ADA">
+    <div class="project-info">
+    <h3>SampleTransformer</h3>
+      <p>Designed a music generative model, SampleTransformer, using an U-Net-based transformer architecture.</p>
+    </div>
+  </div>
+
+  <div class="project-item">
+    <img src="../images/e-puck.png" alt="ML-ADA" data-link="/">
+    <div class="project-info">
+    <h3>E-puck Robot Localisation</h3>
+      <p>Implemented the particle filter algorithm for real-world problem of E-puck robot localisation.</p>
+    </div>
+  </div>
+
+  <div class="project-item" data-link="https://journals.lww.com/jmss/Fulltext/2020/10040/Automatic_Evaluation_of_Crown_Preparation_Using.3.aspx">
+    <img src="../images/AECP.jpeg" alt="ML-ADA">
+    <div class="project-info">
+    <h3>Automatic Evaluation of Crown Preparation</h3>
+      <p>Designed and implemented an innovative software for evaluating crown(tooth) preparation.</p>
+    </div>
+  </div>
+</div>
+
+<h2 class="section-header">Publications</h2>
+<div id="publications" class="publications">
+  <div class="publication-item">
+    <h3>Taming Transformers for Realistic Lidar Point Cloud Generation</h3>
+    <p><em>H. Haghighi, A.Samadi, M. Dianati, V. Donzella and K. Debattista</em>, in arXiv: 2404.05505, 2024</p>
+    <a class="pdf" href="https://arxiv.org/pdf/2404.05505.pdf">PDF</a>
+    <a class="code" href="https://github.com/hamedhaghighi/LidarGRIT">Code</a>
+  </div>
+  
+  <div class="publication-item">
+    <h3>Contrastive Learning-based Framework for Sim-to-Real Mapping of Lidar Point Clouds in Autonomous Driving Systems</h3>
+    <p><em>H. Haghighi, A.Samadi, M. Dianati, V. Donzella and K. Debattista</em>, in arXiv: 2312.15817, 2023</p>
+    <a class="pdf" href="https://arxiv.org/pdf/2312.15817.pdf">PDF</a>
+    <a class="code" href="https://github.com/hamedhaghighi/CLS2R">Code</a>
+  </div>
+  
+  <div class="publication-item">
+    <h3>Accelerating Stereo Image Simulation for Automotive Applications Using Neural Stereo Super Resolution</h3>
+    <p><em>H. Haghighi, M. Dianati, V. Donzella and K. Debattista</em>, IEEE Transaction on Intellignet Transportation Systems, 2023</p>
+    <a class="pdf" href="https://doi.org/10.1109/TITS.2023.3287912">PDF</a>
+    <a class="code" href="https://github.com/hamedhaghighi/ETSSR">Code</a>
+  </div>
+  
+  <div class="publication-item">
+    <h3>Review of the Learning-based Camera and Lidar Simulation Methods for Autonomous Driving Systems</h3>
+    <p><em>H. Haghighi, X. Wang, H. Jing, M. Dianati</em>, arXiv: 2402.10079, 2024</p>
+    <a class="pdf" href="https://arxiv.org/pdf/2402.10079.pdf">PDF</a>
+  </div>
+  
+  <div class="publication-item">
+    <h3>Automatic Evaluation of Crown Preparation using Image Processing Technique: A substitute to Faculty Scoring in Dental Education</h3>
+    <p><em>Tahani, B.;Rashno, A.;Haghighi, H.; Kafieh, R.</em>, Journal of Medical Signals & Sensors, 2019</p>
+    <a class="pdf" href="https://journals.lww.com/jmss/Fulltext/2020/10040/Automatic_Evaluation_of_Crown_Preparation_Using.3.aspx">PDF</a>
+  </div>
+</div>
+
+
 
 <h2 class="section-header">Education</h2>
 
-<div class="education">
+<div id="education" class="education">
   <div class="education-item">
     <h3>PhD in Engineering</h3>
     <p><strong>University of Warwick</strong>, [2020 - 2024], 
@@ -110,94 +244,64 @@ I am a PhD student at the University of Warwick, UK, focusing on the application
 </div>
 
 
-
-<h2 class="section-header">Publications</h2>
-<div class="publications">
-  <div class="publication-item">
-    <h3><a href="https://arxiv.org/abs/2404.05505">Taming Transformers for Realistic Lidar Point Cloud Generation</a></h3>
-    <p><em>H. Haghighi, A.Samadi, M. Dianati, V. Donzella and K. Debattista</em>, in arXiv: 2404.05505, 2024</p>
-    <a class="code" href="https://github.com/hamedhaghighi/LidarGRIT">Code</a>
-  </div>
-  
-  <div class="publication-item">
-    <h3><a href="https://arxiv.org/abs/2312.15817">Contrastive Learning-based Framework for Sim-to-Real Mapping of Lidar Point Clouds in Autonomous Driving Systems</a></h3>
-    <p><em>H. Haghighi, A.Samadi, M. Dianati, V. Donzella and K. Debattista</em>, in arXiv: 2312.15817, 2023</p>
-    <a class="code" href="https://github.com/hamedhaghighi/CLS2R">Code</a>
-  </div>
-  
-  <div class="publication-item">
-    <h3><a href="https://doi.org/10.1109/TITS.2023.3287912">Accelerating Stereo Image Simulation for Automotive Applications Using Neural Stereo Super Resolution</a></h3>
-    <p><em>H. Haghighi, M. Dianati, V. Donzella and K. Debattista</em>, IEEE Transaction on Intellignet Transportation Systems, 2023</p>
-    <a class="code" href="https://github.com/hamedhaghighi/ETSSR">Code</a>
-  </div>
-  
-  <div class="publication-item">
-    <h3><a href="https://arxiv.org/abs/2402.10079">Review of the Learning-based Camera and Lidar Simulation Methods for Autonomous Driving Systems</a></h3>
-    <p><em>H. Haghighi, X. Wang, H. Jing, M. Dianati</em>, arXiv: 2402.10079, 2024</p>
-  </div>
-  
-  <div class="publication-item">
-    <h3><a href="https://journals.lww.com/jmss/fulltext/2020/10040/Automatic_Evaluation_of_Crown_Preparation_Using.3.aspx">Automatic Evaluation of Crown Preparation using Image Processing Technique: A substitute to Faculty Scoring in Dental Education</a></h3>
-    <p><em>Tahani, B.;Rashno, A.;Haghighi, H.; Kafieh, R.</em>, Journal of Medical Signals & Sensors, 2019</p>
-  </div>
+<h2 class="section-header">Contact</h2>
+<div id="contact">
+            <div>
+                <h4>Email</h4>
+                <p class="email">
+                    Gmail: <a style="color: #007bff;" href="mailto:hamedlakers@gmail.com" target="_blank">hamedlakers@gmail.com</a><br>
+                    UofW: <a style="color: #007bff;" href="mailto:hamed.haghighi@warwick.ac.uk" target="_blank">hamed.haghighi@warwick.ac.uk</a><br>                    
+                </p>
+            </div>
+    <div class="row">
+        <div class="seven columns">
+            <iframe src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBosd_ExVC7FQ-pX8BohIvZRZxBrGWZ-hQ&q=52.38339789842113, -1.5590910025789093" width="100%" height="420px" frameborder="0" style="border:0;"></iframe>
+        </div>
+            <div >
+                <h4>Address</h4>
+                <p class="address">
+                    International Digital Laboratory (IDL), <br>
+                    WMG, <br>
+                    University of Warwick, <br>
+                    Coventry, UK 
+                </p>
+            </div>
+    </div>
 </div>
-
-
-<h2 class="section-header">Projects</h2>
-
-<div class="project-grid">
-  <div class="project-item" data-link="https://github.com/hamedhaghighi/ML-assisted-annotation">
-    <img src="../images/MLADA.jpg" alt="ML-ADA">
-    <div class="project-info">
-      <p>Developed a semi-automatic data annotation tool (ML-ADA) for 2D/3D object detection tasks in autonomous driving.</p>
-    </div>
-  </div>
-
-  <div class="project-item" data-link="https://github.com/hamedhaghighi/ML-assisted-annotation">
-    <img src="../images/ambient-VAE.png" alt="ML-ADA">
-    <div class="project-info">
-      <h3>Adapted varational auto-encoders for the unsupervised image restoration task. (MSc thesis)</h3>
-    </div>
-  </div>
-  
-  <div class="project-item" data-link="https://github.com/hamedhaghighi/ML-assisted-annotation">
-    <img src="../images/UTLC.png" alt="ML-ADA">
-    <div class="project-info">
-      <p>designed a fast recursive model for lossless image compression using attention mechanism.</p>
-    </div>
-  </div>
-
-  <div class="project-item" data-link="https://github.com/hamedhaghighi/ML-assisted-annotation">
-    <img src="../images/sampleTransformer.png" alt="ML-ADA">
-    <div class="project-info">
-      <p>Designed a music generative model using an U-Net-based transformer architecture.</p>
-    </div>
-  </div>
-
-  <div class="project-item" data-link="https://github.com/hamedhaghighi/ML-assisted-annotation">
-    <img src="../images/e-puck.png" alt="ML-ADA">
-    <div class="project-info">
-      <h3>Machine Learning-Assisted Data Annotation (ML-ADA) for 3D/2D Object Detection</h3>
-      <p>Implemented particle filter algorithm for real-world problem of E-puck robot localization.</p>
-    </div>
-  </div>
-
-  <div class="project-item" data-link="https://github.com/hamedhaghighi/ML-assisted-annotation">
-    <img src="../images/AECP.jpeg" alt="ML-ADA">
-    <div class="project-info">
-      <p>Designed and implementated of innovative software for evaluating crown(tooth) preparation.</p>
-    </div>
-  </div>
-</div>
-
-
-
-
 
 
 
 
 <style>
+  .navbar {
+ position: fixed; /* Make navbar fixed */
+  top: 0; /* Position at the top */
+  width: 100%; /* Take up full width */
+  overflow: hidden;
+  background-color: #ffffff; 
+  z-index: 1000; /* Ensure navbar is above other content */
+   border-bottom: 1px solid #e0e0e0;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #333;
+  text-align: center;
+  padding: 14px 20px;
+  font-size: 17px;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.navbar a.active {
+  background-color: #007bff;
+  color: white;
+}
   .section-header {
   font-size: 2em;
   font-weight: bold;
@@ -239,7 +343,7 @@ I am a PhD student at the University of Warwick, UK, focusing on the application
 .project-item img {
   width: 100%;
   height: 200px;
-  object-fit: cover; /* Maintain aspect ratio */
+  object-fit: contain; /* Maintain aspect ratio */
   transition: transform 0.3s ease-in-out;
   border: 2px solid black; /* Add black border */
 }
@@ -294,6 +398,7 @@ I am a PhD student at the University of Warwick, UK, focusing on the application
 
 .publication-item h3 {
   margin-bottom: 5px;
+  color: #000066;
 }
 
 .publication-item p {
@@ -314,6 +419,16 @@ I am a PhD student at the University of Warwick, UK, focusing on the application
   background-repeat: no-repeat;
   background-size: 20px 20px; /* Size of GitHub logo */
   background-position: left center; /* Position GitHub logo to the left of text */
+}
+.pdf{
+  margin-right: 5px;
+  text-decoration: none;
+  color: #007bff;
+  padding-left: 38px;
+  background-image: url(../images/pdf-icon.jpg);
+  background-repeat: no-repeat;
+  background-size: 40px 20px;
+  background-position: left center;
 }
 .publication-item a:hover {
   text-decoration: underline;
@@ -419,6 +534,39 @@ I am a PhD student at the University of Warwick, UK, focusing on the application
 }
 
 
+
+#contact {
+  background-color: #f8f9fa; /* Light background color */
+  border-radius: 8px; /* Rounded corners */
+  padding: 20px; /* Padding around each item */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow for a lifted effect */
+}
+
+#contact h4 {
+    font-size: 1.5em; /* Larger font size for headings */
+    /* margin-bottom: 15px; */
+    color: #333; /* Dark text color */
+}
+
+#contact .email {
+    margin-bottom: 20px;
+}
+
+#contact .address {
+    font-style: italic;
+}
+
+/* Adjust the styling for the widgets to fit the Contact section */
+#contact .widget {
+    margin-bottom: 0px;
+    border-bottom: 1px solid #e0e0e0; /* Optional: Add a subtle border between widgets */
+    padding-bottom: 0px;
+}
+
+#contact .widget:last-child {
+    border-bottom: none; /* Remove border for the last widget */
+}
+
 </style>
 
 <script>
@@ -427,8 +575,39 @@ document.addEventListener('DOMContentLoaded', function() {
 
   projectItems.forEach(item => {
     const link = item.getAttribute('data-link');
-    item.addEventListener('click', function() {
-      window.location.href = link;
+    if(link)
+    {
+      item.addEventListener('mousedown', function() {
+        window.open(link, '_blank'); // Open link in a new tab
+    });
+    }
+  });
+});
+
+
+document.addEventListener('DOMContentLoaded', function() {
+  const sections = ['about', 'experience', 'education', 'publications', 'projects', 'contact'];
+  const navbar = document.querySelector('.navbar');
+  const navLinks = navbar.querySelectorAll('a');
+
+  window.addEventListener('scroll', function() {
+    let currentSection = '';
+
+    sections.forEach(section => {
+      const element = document.getElementById(section);
+      const offset = 200; // Adjust this value to fit your needs
+
+      if (element.offsetTop - offset <= window.scrollY && 
+          element.offsetTop + element.offsetHeight - offset > window.scrollY) {
+        currentSection = section;
+      }
+    });
+
+    navLinks.forEach(link => {
+      link.classList.remove('active');
+      if (link.getAttribute('href').substring(1) === currentSection) {
+        link.classList.add('active');
+      }
     });
   });
 });
