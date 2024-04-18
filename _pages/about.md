@@ -583,8 +583,8 @@ document.addEventListener('DOMContentLoaded', function() {
     }
   });
 });
-
-
+</script>
+<script>
 document.addEventListener('DOMContentLoaded', function() {
   const sections = ['about', 'experience', 'education', 'publications', 'projects', 'contact'];
   const navbar = document.querySelector('.navbar');
