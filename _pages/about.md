@@ -108,7 +108,7 @@ I am pursuing my PhD at the University of Warwick, UK,  under the supervision of
   </div>
 
 
- <div class="project-item" data-link="https://github.com/hamedhaghighi/ETSSR">
+ <div class="project-item" data-link="https://ieeexplore.ieee.org/document/10173712">
     <img src="../images/ETSSR.png" alt="ML-ADA">
     <div class="project-info">
       <h3>ETSSR</h3>
@@ -116,7 +116,7 @@ I am pursuing my PhD at the University of Warwick, UK,  under the supervision of
     </div>
   </div>
 
-  <div class="project-item" data-link="https://github.com/hamedhaghighi/CLS2R">
+  <div class="project-item" data-link="https://arxiv.org/pdf/2312.15817.pdf">
     <img src="../images/cls2r.png" alt="ML-ADA">
     <div class="project-info">
       <h3>CLS2R</h3>
@@ -181,7 +181,7 @@ I am pursuing my PhD at the University of Warwick, UK,  under the supervision of
   
   <div class="publication-item">
     <h3>Contrastive Learning-based Framework for Sim-to-Real Mapping of Lidar Point Clouds in Autonomous Driving Systems</h3>
-    <p><em>H. Haghighi, A.Samadi, M. Dianati, V. Donzella and K. Debattista</em>, in arXiv: 2312.15817, 2023</p>
+    <p><em>H. Haghighi, M. Dianati, V. Donzella and K. Debattista</em>, in arXiv: 2312.15817, 2023</p>
     <a class="pdf" href="https://arxiv.org/pdf/2312.15817.pdf">PDF</a>
     <a class="code" href="https://github.com/hamedhaghighi/CLS2R">Code</a>
   </div>
