@@ -212,11 +212,11 @@ I am pursuing my PhD at the University of Warwick, UK,  under the supervision of
 
 <div id="education" class="education">
   <div class="education-item">
-    <h3>PhD in Engineering</h3>
+    <h3>PhD in Computer Science</h3>
     <p><strong>University of Warwick</strong>, [2020 - 2024], 
     Coventry, UK</p>
     <ul>
-      <li><strong>Thesis</strong>: "Data-driven Simulation of Perception Sensors for Autonomous Vehicles"</li>
+      <li><strong>Thesis</strong>: "Generative AI for Sensor Simulation in Autonomous Driving"</li>
     </ul>
   </div>
   
